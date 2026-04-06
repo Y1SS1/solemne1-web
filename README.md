@@ -1,34 +1,7 @@
 # Straight to Heaven - Centro de Innovación y Software
 
-Proyecto de desarrollo web creado para la Solemne 01. Consiste en un sitio web corporativo de 7 páginas para una empresa que ofrece servicios de vanguardia, incluyendo bienes raíces espaciales, inversiones en la NYSE, exchange de criptomonedas y venta de patentes de servidores.
+El proyecto contiene siete archivos HTML. El archivo index.html es la página principal o de inicio que da la bienvenida al usuario y muestra un resumen rápido de los enfoques de la empresa. El archivo equipo.html presenta a los miembros del equipo detrás del proyecto, mostrando sus roles y especialidades. Ambas páginas están construidas usando Bootstrap.
 
-## Características del Proyecto
+El archivo nosotros.html es la página institucional que explica la misión, la visión y detalla la presencia global de la empresa con sus distintas sucursales. El archivo servicios.html funciona como el catálogo de lo que vende la empresa, detallando los servicios de bienes raíces espaciales, inversiones, criptomonedas y patentes.
 
-* **Cumplimiento de Rúbrica:** 7 páginas en total interconectadas.
-* **Integración Mixta:** 2 páginas desarrolladas con el framework Bootstrap 5 (`index.html` y `equipo.html`) y 5 páginas desarrolladas con HTML5 semántico y CSS3 puro.
-* **Coherencia Visual:** Diseño unificado a través de variables CSS globales, manteniendo la misma paleta de colores y estructura en todo el sitio.
-* **Formulario Estructurado:** Página de contacto con validación básica de HTML5.
-* **Despliegue en Contenedores:** Configurado para ejecutarse a través de Docker utilizando un servidor Nginx.
-
-## Tecnologías Utilizadas
-
-* HTML5 Semántico
-* CSS3 (Variables, Flexbox)
-* Bootstrap 5.3.3 (vía CDN)
-* Docker (Nginx Alpine)
-
-## Estructura de Archivos
-
-```text
-/
-├── css/
-│   └── styles.css
-├── index.html        (Bootstrap)
-├── equipo.html       (Bootstrap)
-├── nosotros.html     (CSS Puro)
-├── servicios.html    (CSS Puro)
-├── recursos.html     (CSS Puro)
-├── contacto.html     (CSS Puro)
-├── faq.html          (CSS Puro)
-├── Dockerfile
-└── .dockerignore
+El archivo recursos.html es una biblioteca virtual donde los usuarios pueden acceder a material adicional como guías de inversión, reportes de mercado y documentación técnica. El archivo contacto.html contiene el formulario donde los clientes pueden ingresar sus datos y su mensaje para comunicarse directamente. Por último, el archivo faq.html es la sección de preguntas frecuentes y transparencia, diseñada para resolver dudas comunes sobre los servicios y explicar el proceso de atención a los usuarios.
